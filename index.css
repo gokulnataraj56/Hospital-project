@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+  }
+  
+  section {
+    position: sticky;
+    top: 0%;
+    background-color: rgb(122, 122, 137);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  
+  }
+  
+  img {
+    height: 90px;
+    width: auto;
+    padding-top: 5px;
+    border-radius: 10px;
+  }
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-form h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+.login-form input {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+.login-form input:focus {
+    border-color: #4b6cb7;
+    outline: none;
+}
+
+#button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #4b6cb7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/ChatGPT\ Image\ May\ 9\,\ 2025\,\ 12_24_09\ PM.png);
+    background-size:1000px;
+    background-position:right;
+    background-attachment: fixed;
+}
+  
+  .login-form a {
+    color: #4b6cb7;
+    text-decoration: none;
+    font-size: 14px;
+}
+header section a {
+  text-decoration: none;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+section{
+  background-image: url(../images/Beige\ Gradient\ Modern\ Personal\ LinkedIn\ Banner.png);
+  background-position: left ;
+}
+footer {
+    height: 150px;
+    width: auto;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div {
+    justify-items: center;
+}
+footer div h3 {
+    padding: 5px;
+}
+footer div a img {
+    height: 30px;
+    width: 30px;
+    border-radius: 0%;
+}

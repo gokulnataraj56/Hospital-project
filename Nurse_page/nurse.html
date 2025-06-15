@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurse page</title>
+    <link rel="stylesheet" href="nurse.css">
+    <link rel="shortcut icon" href="../images/nurse.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <section>
+            <div id="navbar">
+                <img src="../images/prapthi-clinic.ico" alt="logo" />
+            </div>
+            <p>Nurse Details</p>
+            <a href="">Help?</a>
+            </div>
+        </section>
+    </header>
+    <div class="buttons">
+        <div><input type="button" value="View"></div>
+        <div><input type="button" value="Add" onclick="add()"></div>
+        <div><input type="button" value="Edit"></div>
+        <div><input type="button" value="Delete"></div>
+    </div>
+
+    <!-- displaying table -->
+    <div class="table_cointainer">
+        <table border="1px">
+            <tr>
+                <td>ID</td>
+                <td>Janu</td>
+                <td>AGE</td>
+                <td>DEPARTMENT</td>
+                <td>FROM</td>
+                <td>TO</td>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Simran</td>
+                <td>25</td>
+                <td>Emergency</td>
+                <td>8:00am</td>
+                <td>5pm</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Samantha</td>
+                <td>27</td>
+                <td>ICU</td>
+                <td>9:00am</td>
+                <td>6:00pm</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Krieethy</td>
+                <td>28</td>
+                <td>Alzer</td>
+                <td>8:00am</td>
+                <td>7:00pm</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>kayadu</td>
+                <td>24</td>
+                <td>Baby care</td>
+                <td>10:00am</td>
+                <td>4:00pm</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- detail collecting table -->
+    <div class="add">
+        <table>
+            <tr>
+                <td><label for="id">ID</label></td>
+                <td><input type="number" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label for="dept">Dept</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="from">From</label></td>
+                <td><input type="time"></td>
+            </tr>
+            <tr>
+                <td><label for="to">To</label></td>
+                <td><input type="time"></td>
+            </tr>
+            <tr>
+                
+                <td >
+                    <button class="suback" type="submit" onclick="sub()">Submit</button>
+                </td>
+                <td>
+                    <button class="suback" type="submit" onclick="back()">Back</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <div>
+            <h3>COIMBATORE HEADQUATERS</h3>
+            <h5>108,Thirumalayampalayam, <br> 
+                Madukkarai,CBE-641105</h5>
+        </div>
+        <div class="join">
+            <h3>JOIN WITH US:</h3>
+            <div>
+                <a href="linked in"><img src="../images/linkedin.png" alt="linked in"></a>
+                <a href="instagram"><img src="../images/instagram.png" alt="instagram"></a>
+                <a href="facebook"><img src="../images/facebook.png" alt="facebook"></a>
+                <a href="twiter"><img src="../images/twitter.png" alt="twiter"></a>
+            </div>
+        </div>
+        <div>
+            <h3>CHAT WITH US:</h3>
+            <input type="text"> 
+            <button type="button">Submit</button>
+        </div>
+    </footer>
+</body>
+</html>
